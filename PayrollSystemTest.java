@@ -16,7 +16,8 @@ public class PayrollSystemTest
       BasePlusCommissionEmployee basePlusCommissionEmployee = 
          new BasePlusCommissionEmployee(
          "Bob", "Lewis", "444-44-4444", 5000, .04, 300);
-      PieceWorker pieceWorker = new PieceWorker("Jeremy", "Smith", "383-83-8383", 20.00, 12);
+      PieceWorker pieceWorker = 
+         new PieceWorker("Jeremy", "Smith", "383-83-8383", 20.00, 12);
       
       
       System.out.println("Employees processed individually:");
